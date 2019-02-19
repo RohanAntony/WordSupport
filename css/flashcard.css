@@ -1,0 +1,17 @@
+.flashcard{
+  border-radius: 5%;
+  border: 1px solid black;
+  width: 600px;
+  height:300px;
+}
+.flashcard .front{
+  visibility: visible;
+  height:100%;
+  width: 100%;
+}
+.flashcard h1{
+  text-align:center;
+}
+.flashcard .back {
+  display:none;
+}
