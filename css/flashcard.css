@@ -1,17 +1,21 @@
 .flashcard{
-  border-radius: 5%;
-  border: 1px solid black;
-  width: 600px;
-  height:300px;
+    width:90%;
+    margin: 1% auto;
 }
-.flashcard .front{
-  visibility: visible;
-  height:100%;
-  width: 100%;
+
+.flashcard .top{
+  background-color: #DFDADA;
 }
+
+.flashcard .bottom{
+  padding: 5%;
+  background-color: #FDFAFA;
+}
+
 .flashcard h1{
   text-align:center;
 }
-.flashcard .back {
-  display:none;
+
+.flashcard .usage{
+  font-style: italic;
 }
